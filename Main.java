@@ -26,5 +26,15 @@ public class Main {
     pi = 10; //誤り。代入すべき変数は「pie」
     System.out.println("半径" + pie + "cmのパイの面積は、");
     System.out.println(pie * pie * pi);
+
+    // 1-5 円周率に定数を利用する（エラー）
+    final double PI = 3.14; //定数として円周率を宣言
+    int pie2 = 5;
+    System.out.println("半径" + pie2 + "cmのパイの面積は、");
+    System.out.println(pie2 * pie2 * PI);
+    System.out.println("パイの半径を倍にします");
+    PI = 10; //コンパイルエラーとなり誤りに気づく
+    System.out.println("半径" + pie2 + "cmのパイの面積は、");
+    System.out.println(pie2 * pie2 * PI);
   }
 }
