@@ -1,5 +1,5 @@
 public class Main10 {
-  // 5-10 オーバロード(引数の方が異なる場合)
+  // 5-10 オーバロード(引数の型が異なる場合)
   // 1つ目のメソッド
   public static int add(int x, int y) {
     return x + y;
